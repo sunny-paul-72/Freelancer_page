@@ -1,0 +1,82 @@
+body {
+    background-color: wheat;
+    color: black;
+}
+
+#main {
+    height: 470px;
+    width: 370px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:80px;
+    left: 500px;
+}
+
+#logo {
+    height: 69px;
+    width: 204px;
+    position: relative;
+    top: 30px;
+    left: 75px;
+    background-color: aqua;
+    text-align: center;
+    background-image: url(freelancer.png);
+    background-size: cover;
+}
+
+#pass1 {
+    position: relative;
+    top: 77px;
+    left: 81px;
+    font-size: 23px;
+}
+
+#pass2 {
+    position: relative;
+    top: 95px;
+    left: 81px;
+    font-size: 18px;
+}
+
+#holder1 {
+    height: 43px;
+    width: 300px;
+    position: relative;
+    top: 140px;
+    left: 35px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+#holder2 {
+    height: 43px;
+    width: 300px;
+    position: relative;
+    top: 155px;
+    left: 35px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+button {
+    height: 50px;
+    width: 307px;
+    position: relative;
+    top: 185px;
+    left: 35px;
+    font-size: 25px;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+button:active {
+    background-color: rgb(0, 0, 200);
+}
